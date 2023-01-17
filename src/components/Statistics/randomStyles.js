@@ -2,11 +2,9 @@ const styles = {
   style1: {
     background: '#99ffff',
   },
-
   style2: {
     background: '#ff66ff',
   },
-
   style3: {
     background: '#b2ff66',
   },
