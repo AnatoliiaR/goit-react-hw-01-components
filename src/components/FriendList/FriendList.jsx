@@ -6,12 +6,7 @@ export const FriendList = ({ friends }) => {
   const items = friends.map(({ id, avatar, name, isOnline }) => (
     <FriendListItem key={id} avatar={avatar} name={name} isOnline={isOnline} />
   ));
-
-  return (
-    <>
-      <ul className={style.list}>{items}</ul>
-    </>
-  );
+  return <ul className={style.list}>{items}</ul>;
 };
 
 FriendList.defaultProps = {
